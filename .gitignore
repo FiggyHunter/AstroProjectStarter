@@ -1,24 +1,27 @@
-# build output
-dist/
+# COMMENTED FOR DEMONSTRATION
 
-# generated types
-.astro/
+# # build output
+# dist/
 
-# dependencies
-node_modules/
+# # generated types
+# .astro/
 
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# # dependencies
+# node_modules/
 
-# environment variables
-.env
-.env.production
+# # logs
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# pnpm-debug.log*
 
-# macOS-specific files
-.DS_Store
+# # environment variables, commented for demonstration
+# # .env
+# # .env.production
 
-# jetbrains setting folder
-.idea/
+# # macOS-specific files
+# .DS_Store
+
+# # jetbrains setting folder
+# .idea/
+node_modules
