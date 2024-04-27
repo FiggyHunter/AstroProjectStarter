@@ -14,27 +14,41 @@ npm create astro@latest -- --template basics
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+- **api/**
+  Contains code for interacting with backend services or external APIs. This can include models, services, and request/response logic.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- **assets/**
+  Holds static assets like images, fonts, and other media files used in the project.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- **components/**
+  Contains reusable UI components for the application. These components are typically used across multiple pages or features. This folder is further organised into folders that logically groups all the relevant components.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- **config/**
+  Contains configuration files and settings for the project. This might include environment variables, API endpoints, and global constants.
 
-Any static assets, like images, can be placed in the `public/` directory.
+- **content/**
+  Houses static content, like markdown files or other resources that represent content for the site.
+
+- **layouts/**
+  Includes layout components used to define the structure of pages or templates for reusable page structures.
+
+- **libraries/**
+  Contains third-party libraries or custom-built libraries that can be reused throughout the project.
+
+- **middlewares/**
+  Holds middleware functions for server-side processing or client-side logic that intercepts certain actions.
+
+- **pages/**
+  Contains individual page components for the site. These typically represent routes or top-level components in the application.
+
+- **styles/**
+  Contains global stylesheets, component-specific styles, or other style-related assets like CSS or SASS files.
+
+- **types/**
+  Stores TypeScript type definitions and interfaces. These are used to enforce type safety and define data structures throughout the project.
+
+- **utilities/**
+  Contains utility functions and helper methods used throughout the project. These can include common operations, data processing, or shared logic.
 
 ## 🧞 Commands
 
