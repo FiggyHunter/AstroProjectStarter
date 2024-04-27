@@ -50,6 +50,12 @@ npm create astro@latest -- --template basics
 - **utilities/**
   Contains utility functions and helper methods used throughout the project. These can include common operations, data processing, or shared logic.
 
+## TO:DO: 
+- Configure Linter, as per project needs.
+- Configure prettier so the code format works everywhere the same, as per the deal between developers.
+- Potentially add more folders if we use react, such as hooks and context.
+- Potentially add the "scripts" folder, if we have some custom scripts and integrations.
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
@@ -62,7 +68,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
